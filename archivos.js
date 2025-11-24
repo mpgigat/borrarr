@@ -1,11 +1,11 @@
 const fs = require("fs")
 
-// const data = fs.readFileSync("entrada.txt", "utf8")
-// console.log(data);
+const data = fs.readFileSync("entrada.txt", "utf8")
+console.log(data);
 
-// for ( const caracter of data){
-//     console.log(caracter);
-// }
+for ( const caracter of data){
+    console.log(caracter);
+}
 
 // const lineas= data
 
